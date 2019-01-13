@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37D7F5B21A648B4000788318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D7F5B11A648B4000788318 /* main.m */; };
+		37D7F5B51A648B4000788318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D7F5B41A648B4000788318 /* AppDelegate.m */; };
+		37D7F5B81A648B4000788318 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D7F5B71A648B4000788318 /* ViewController.m */; };
+		37D7F5BB1A648B4000788318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D7F5B91A648B4000788318 /* Main.storyboard */; };
+		37D7F5BD1A648B4000788318 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D7F5BC1A648B4000788318 /* Images.xcassets */; };
+		37D7F5C01A648B4000788318 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D7F5BE1A648B4000788318 /* LaunchScreen.xib */; };
+		37D7F5CC1A648B4000788318 /* GuidedMeditationTreksV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D7F5CB1A648B4000788318 /* GuidedMeditationTreksV2Tests.m */; };
+		37D7F5D61A648BB600788318 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D7F5D51A648BB600788318 /* AVFoundation.framework */; };
+		4698673921E1413300249142 /* audio in Resources */ = {isa = PBXBuildFile; fileRef = 4698673821E1413300249142 /* audio */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37D7F5C61A648B4000788318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37D7F5A41A648B3F00788318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D7F5AB1A648B4000788318;
+			remoteInfo = GuidedMeditationTreksV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37D7F5AC1A648B4000788318 /* GuidedMeds2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuidedMeds2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D7F5B01A648B4000788318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D7F5B11A648B4000788318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37D7F5B31A648B4000788318 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37D7F5B41A648B4000788318 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37D7F5B61A648B4000788318 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37D7F5B71A648B4000788318 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37D7F5BA1A648B4000788318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37D7F5BC1A648B4000788318 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37D7F5BF1A648B4000788318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		37D7F5C51A648B4000788318 /* GuidedMeds2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuidedMeds2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D7F5CA1A648B4000788318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D7F5CB1A648B4000788318 /* GuidedMeditationTreksV2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuidedMeditationTreksV2Tests.m; sourceTree = "<group>"; };
+		37D7F5D51A648BB600788318 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4698673821E1413300249142 /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37D7F5A91A648B4000788318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D7F5D61A648BB600788318 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D7F5C21A648B4000788318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37D7F5A31A648B3F00788318 = {
+			isa = PBXGroup;
+			children = (
+				37D7F5D51A648BB600788318 /* AVFoundation.framework */,
+				37D7F5AE1A648B4000788318 /* GuidedMeditationTreksV2 */,
+				37D7F5C81A648B4000788318 /* GuidedMeditationTreksV2Tests */,
+				37D7F5AD1A648B4000788318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37D7F5AD1A648B4000788318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37D7F5AC1A648B4000788318 /* GuidedMeds2.app */,
+				37D7F5C51A648B4000788318 /* GuidedMeds2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37D7F5AE1A648B4000788318 /* GuidedMeditationTreksV2 */ = {
+			isa = PBXGroup;
+			children = (
+				4698673821E1413300249142 /* audio */,
+				37D7F5B31A648B4000788318 /* AppDelegate.h */,
+				37D7F5B41A648B4000788318 /* AppDelegate.m */,
+				37D7F5B61A648B4000788318 /* ViewController.h */,
+				37D7F5B71A648B4000788318 /* ViewController.m */,
+				37D7F5B91A648B4000788318 /* Main.storyboard */,
+				37D7F5BC1A648B4000788318 /* Images.xcassets */,
+				37D7F5BE1A648B4000788318 /* LaunchScreen.xib */,
+				37D7F5AF1A648B4000788318 /* Supporting Files */,
+			);
+			path = GuidedMeditationTreksV2;
+			sourceTree = "<group>";
+		};
+		37D7F5AF1A648B4000788318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37D7F5B01A648B4000788318 /* Info.plist */,
+				37D7F5B11A648B4000788318 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37D7F5C81A648B4000788318 /* GuidedMeditationTreksV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				37D7F5CB1A648B4000788318 /* GuidedMeditationTreksV2Tests.m */,
+				37D7F5C91A648B4000788318 /* Supporting Files */,
+			);
+			path = GuidedMeditationTreksV2Tests;
+			sourceTree = "<group>";
+		};
+		37D7F5C91A648B4000788318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37D7F5CA1A648B4000788318 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37D7F5AB1A648B4000788318 /* GuidedMeds2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D7F5CF1A648B4000788318 /* Build configuration list for PBXNativeTarget "GuidedMeds2" */;
+			buildPhases = (
+				37D7F5A81A648B4000788318 /* Sources */,
+				37D7F5A91A648B4000788318 /* Frameworks */,
+				37D7F5AA1A648B4000788318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuidedMeds2;
+			productName = GuidedMeditationTreksV2;
+			productReference = 37D7F5AC1A648B4000788318 /* GuidedMeds2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37D7F5C41A648B4000788318 /* GuidedMeds2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D7F5D21A648B4000788318 /* Build configuration list for PBXNativeTarget "GuidedMeds2Tests" */;
+			buildPhases = (
+				37D7F5C11A648B4000788318 /* Sources */,
+				37D7F5C21A648B4000788318 /* Frameworks */,
+				37D7F5C31A648B4000788318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37D7F5C71A648B4000788318 /* PBXTargetDependency */,
+			);
+			name = GuidedMeds2Tests;
+			productName = GuidedMeditationTreksV2Tests;
+			productReference = 37D7F5C51A648B4000788318 /* GuidedMeds2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37D7F5A41A648B3F00788318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Guided Meditation Treks";
+				TargetAttributes = {
+					37D7F5AB1A648B4000788318 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = SGAUF3M36P;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					37D7F5C41A648B4000788318 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 37D7F5AB1A648B4000788318;
+					};
+				};
+			};
+			buildConfigurationList = 37D7F5A71A648B3F00788318 /* Build configuration list for PBXProject "GuidedMeds2" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37D7F5A31A648B3F00788318;
+			productRefGroup = 37D7F5AD1A648B4000788318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37D7F5AB1A648B4000788318 /* GuidedMeds2 */,
+				37D7F5C41A648B4000788318 /* GuidedMeds2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37D7F5AA1A648B4000788318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D7F5BB1A648B4000788318 /* Main.storyboard in Resources */,
+				37D7F5C01A648B4000788318 /* LaunchScreen.xib in Resources */,
+				37D7F5BD1A648B4000788318 /* Images.xcassets in Resources */,
+				4698673921E1413300249142 /* audio in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D7F5C31A648B4000788318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37D7F5A81A648B4000788318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D7F5B81A648B4000788318 /* ViewController.m in Sources */,
+				37D7F5B51A648B4000788318 /* AppDelegate.m in Sources */,
+				37D7F5B21A648B4000788318 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D7F5C11A648B4000788318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D7F5CC1A648B4000788318 /* GuidedMeditationTreksV2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37D7F5C71A648B4000788318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37D7F5AB1A648B4000788318 /* GuidedMeds2 */;
+			targetProxy = 37D7F5C61A648B4000788318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37D7F5B91A648B4000788318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D7F5BA1A648B4000788318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37D7F5BE1A648B4000788318 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D7F5BF1A648B4000788318 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37D7F5CD1A648B4000788318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37D7F5CE1A648B4000788318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37D7F5D01A648B4000788318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GuidedMeditationTreksV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.russellEricDobda.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GuidedMeds2;
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		37D7F5D11A648B4000788318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GuidedMeditationTreksV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.russellEricDobda.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GuidedMeds2;
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+		37D7F5D31A648B4000788318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuidedMeditationTreksV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GuidedMeditationTreks.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GuidedMeds2Tests;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		37D7F5D41A648B4000788318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuidedMeditationTreksV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GuidedMeditationTreks.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GuidedMeds2Tests;
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37D7F5A71A648B3F00788318 /* Build configuration list for PBXProject "GuidedMeds2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D7F5CD1A648B4000788318 /* Debug */,
+				37D7F5CE1A648B4000788318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D7F5CF1A648B4000788318 /* Build configuration list for PBXNativeTarget "GuidedMeds2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D7F5D01A648B4000788318 /* Debug */,
+				37D7F5D11A648B4000788318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D7F5D21A648B4000788318 /* Build configuration list for PBXNativeTarget "GuidedMeds2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D7F5D31A648B4000788318 /* Debug */,
+				37D7F5D41A648B4000788318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37D7F5A41A648B3F00788318 /* Project object */;
+}
